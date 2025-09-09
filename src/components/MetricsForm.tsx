@@ -16,7 +16,7 @@ const MetricsForm: React.FC<Props> = ({ setInsights, setAlerts }) => {
     const handleSubmit = async (e: React.FormEvent) => {
         e.preventDefault();
         try {
-            const { insights, alerts, chartData } = await submitMetrics({
+            const { insights, alerts } = await submitMetrics({
                 steps: Number(metrics.steps),
                 heartRate: Number(metrics.heartRate),
                 sleepHours: Number(metrics.sleep),
