@@ -1,4 +1,4 @@
-Here is the Live demos of the health tracker app :
+Here is the Live demo of the health tracker app :
 
 ## Running the Frontend locally
 
