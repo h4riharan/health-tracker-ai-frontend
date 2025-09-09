@@ -1,0 +1,161 @@
+body {
+  background: #f6f8fa;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+#root,
+.App {
+  max-width: 600px;
+  margin: 2em auto;
+  padding: 2rem;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 16px rgba(0, 0, 0, 0.07);
+}
+
+h1 {
+  color: #2a3b4c;
+  margin-bottom: 1.5em;
+}
+
+form {
+  background: #f7fafd;
+  padding: 1.5em 1em;
+  border-radius: 8px;
+  margin-bottom: 2em;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.03);
+}
+
+form div {
+  margin-bottom: 1em;
+  text-align: left;
+}
+
+label {
+  font-weight: 500;
+  color: #2a3b4c;
+  display: block;
+  margin-bottom: 0.3em;
+}
+
+input[type='number'],
+input[type='text'],
+input[type='password'] {
+  padding: 0.5em;
+  border: 1px solid #bcd0e5;
+  border-radius: 4px;
+  width: 100%;
+  font-size: 1em;
+  box-sizing: border-box;
+}
+
+button[type='submit'] {
+  background: #4f8cff;
+  color: #fff;
+  border: none;
+  padding: 0.7em 1.5em;
+  border-radius: 4px;
+  font-size: 1em;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background 0.2s;
+}
+
+button[type='submit']:hover {
+  background: #3466c2;
+}
+
+section {
+  margin-top: 2em;
+  text-align: left;
+}
+
+section h2 {
+  color: #3a4a5c;
+  margin-bottom: 0.7em;
+}
+
+.disclaimer {
+  background: #ffeeba;
+  padding: 1em;
+  margin-bottom: 1.5em;
+  border-radius: 5px;
+  color: #856404;
+  font-size: 1em;
+  border: 1px solid #ffe08a;
+}
+
+.ai-insights {
+  background: #e8f5e9;
+  padding: 1em;
+  border-radius: 8px;
+  min-height: 60px;
+  color: #256029;
+  font-size: 1.05em;
+}
+
+.charts-placeholder {
+  background: #f0f0f0;
+  height: 200px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #888;
+  font-size: 1.1em;
+}
+
+ul {
+  padding-left: 1.2em;
+}
+
+ul li {
+  margin-bottom: 0.5em;
+  color: #b23c17;
+  font-weight: 500;
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
